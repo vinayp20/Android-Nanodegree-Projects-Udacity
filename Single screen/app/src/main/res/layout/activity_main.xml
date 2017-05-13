@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.android.myapplication1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NewCastle Burgers"
+        android:id="@+id/businessName"
+        android:textSize="16sp"
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:layout_weight="1"
+      />
+
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/businessImage"
+    android:src="@drawable/newcastleburgers"
+android:layout_weight="1"
+    android:adjustViewBounds="true"
+    android:cropToPadding="true" />
+    <!--android:layout_alignTop="@id/businessDetails"-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact us: \n Phone: 555-555-5555 \n E-mail: business@ncburgers.com\n Best local burger joint specializing
+        in the area offering a wide variety of of options. \n Hours of operation : \n Mon-Thu: 11am-10pm. \n Fri-Sun 10am-11:30pm"
+        android:id="@+id/businessDetails"
+
+        android:textAlignment="center"
+android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+         />
+
+
+</LinearLayout>
+</ScrollView>
